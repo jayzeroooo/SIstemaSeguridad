@@ -45,6 +45,11 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SistemaSeguridad\Alarma.cs" />
+    <Compile Include="SistemaSeguridad\Camara.cs" />
+    <Compile Include="SistemaSeguridad\ISistemaSeguridad.cs" />
+    <Compile Include="SistemaSeguridad\SeguridadFactory.cs" />
+    <Compile Include="SistemaSeguridad\SensorMovimiento.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
